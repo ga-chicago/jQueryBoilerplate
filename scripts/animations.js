@@ -6,20 +6,20 @@ $(document).ready(function(evt) {
   $('#weather-btn').click(function(evt) {
     // select '.weather' and .hide() it
     //$('.weather').hide();
-    $('.weather').slideUp();
+    $('.weather').fadeOut();
   });
   // now hide '.news' and .hide() it
   $('#news-btn').click(function(evt) {
     //$('.news').hide();
-    $('.news').slideUp();
+    $('.news').fadeOut();
   });
   // what if we want to see them all again?
   $('#show-and-hide-btn').click(function(evt) {
     // we miss you! .show() to come back
     // $('.news').show();
     // $('.weather').show();
-    $('.news').slideDown();
-    $('.weather').slideDown();
+    $('.news').fadeIn();
+    $('.weather').fadeIn();
   });
   // animation station
   $('#move-img').click(function(evt) {
