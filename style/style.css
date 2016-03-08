@@ -14,3 +14,7 @@ button {
   border-radius: 5px;
   font-size: 16px;
 }
+/* do not do in production or else u lose jobz */
+img {
+  position: absolute;
+}
